@@ -236,7 +236,7 @@ export default function Home() {
         <div className="hero-copy">
           <p className="eyebrow">PhD in Computer Science · Moscow</p>
           <h1>
-            Elmira Yu.
+            Elmira Yu.{" "}
             <br />
             Kalimulina
           </h1>
