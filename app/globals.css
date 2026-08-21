@@ -98,12 +98,12 @@ a:focus-visible {
   color: white;
   display: inline-flex;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 13px;
+  font-size: 11px;
   height: 38px;
   justify-content: center;
-  letter-spacing: -0.05em;
+  letter-spacing: -0.08em;
   position: relative;
-  width: 38px;
+  width: 48px;
 }
 
 .brand-mark::after {
@@ -130,9 +130,10 @@ a:focus-visible {
 
 .brand-copy small {
   color: var(--muted);
-  font-size: 7px;
+  font-size: 8px;
   letter-spacing: 0.16em;
   text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .main-nav {
@@ -143,7 +144,7 @@ a:focus-visible {
 
 .main-nav a,
 .header-contact {
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -245,7 +246,7 @@ a:hover .arrow.diagonal {
 .card-kicker,
 .award-label {
   color: var(--violet-bright);
-  font-size: 9px;
+  font-size: 10px;
   font-weight: 800;
   letter-spacing: 0.19em;
   margin: 0;
@@ -298,7 +299,7 @@ a:hover .arrow.diagonal {
 .button {
   align-items: center;
   display: inline-flex;
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 800;
   gap: 24px;
   justify-content: space-between;
@@ -337,7 +338,7 @@ a:hover .arrow.diagonal {
 .hero-affiliations span {
   border: 1px solid var(--line);
   color: #a99daf;
-  font-size: 8px;
+  font-size: 9px;
   letter-spacing: 0.1em;
   padding: 9px 11px;
   text-transform: uppercase;
@@ -431,7 +432,7 @@ a:hover .arrow.diagonal {
 
 .portrait-label span {
   color: var(--violet-bright);
-  font-size: 7px;
+  font-size: 8px;
   font-weight: 800;
   letter-spacing: 0.15em;
   text-transform: uppercase;
@@ -491,7 +492,7 @@ a:hover .arrow.diagonal {
 
 .proof-strip span {
   color: #9f94a6;
-  font-size: 9px;
+  font-size: 10px;
   line-height: 1.45;
   max-width: 155px;
   text-transform: uppercase;
@@ -773,7 +774,7 @@ a:hover .arrow.diagonal {
 .section-index {
   color: var(--violet-bright);
   font-family: "Courier New", monospace;
-  font-size: 9px;
+  font-size: 10px;
   font-weight: 700;
   letter-spacing: 0.16em;
   margin-bottom: clamp(48px, 6vw, 88px);
@@ -930,7 +931,7 @@ a:hover .arrow.diagonal {
 .experience-period {
   color: var(--violet-bright);
   font-family: "Courier New", monospace;
-  font-size: 9px;
+  font-size: 10px;
   letter-spacing: 0.08em;
   padding-top: 7px;
 }
@@ -956,7 +957,7 @@ a:hover .arrow.diagonal {
 
 .experience-role {
   color: var(--lilac);
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 700;
   grid-column: 1;
   letter-spacing: 0.08em;
@@ -988,7 +989,7 @@ a:hover .arrow.diagonal {
   border: 1px solid var(--line);
   color: #a99daf;
   font-family: "Courier New", monospace;
-  font-size: 8px;
+  font-size: 9px;
   letter-spacing: 0.05em;
   padding: 7px 9px;
   text-transform: uppercase;
@@ -1036,7 +1037,7 @@ a:hover .arrow.diagonal {
   align-items: center;
   border-bottom: 1px solid var(--line-strong);
   display: inline-flex;
-  font-size: 9px;
+  font-size: 10px;
   font-weight: 700;
   gap: 20px;
   letter-spacing: 0.12em;
@@ -1228,7 +1229,7 @@ a:hover .arrow.diagonal {
 .teaching-principle > span {
   color: var(--violet-bright);
   display: block;
-  font-size: 8px;
+  font-size: 9px;
   font-weight: 800;
   letter-spacing: 0.15em;
   margin-bottom: 24px;
@@ -1277,7 +1278,7 @@ a:hover .arrow.diagonal {
 .course-list article > span {
   color: var(--violet-bright);
   font-family: "Courier New", monospace;
-  font-size: 9px;
+  font-size: 10px;
   padding-top: 5px;
 }
 
@@ -1291,13 +1292,13 @@ a:hover .arrow.diagonal {
 
 .course-list p {
   color: #a99eac;
-  font-size: 11px;
+  font-size: 12px;
   margin: 0 0 7px;
 }
 
 .course-list small {
   color: var(--violet-bright);
-  font-size: 8px;
+  font-size: 9px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
@@ -1329,7 +1330,7 @@ a:hover .arrow.diagonal {
 .teaching-proof > div > span {
   color: var(--lilac);
   display: block;
-  font-size: 9px;
+  font-size: 10px;
   font-weight: 800;
   letter-spacing: 0.15em;
   margin-top: 9px;
@@ -1387,7 +1388,7 @@ a:hover .arrow.diagonal {
 .publication-topic {
   color: var(--violet-bright);
   font-family: "Courier New", monospace;
-  font-size: 9px;
+  font-size: 10px;
   letter-spacing: 0.05em;
   padding-top: 5px;
   text-transform: uppercase;
@@ -1413,7 +1414,7 @@ a:hover .arrow.diagonal {
 
 .publication-main small {
   color: #948a99;
-  font-size: 10px;
+  font-size: 11px;
   line-height: 1.5;
 }
 
@@ -1454,7 +1455,7 @@ a:hover .arrow.diagonal {
 .credential-column article > span {
   color: var(--violet-bright);
   font-family: "Courier New", monospace;
-  font-size: 9px;
+  font-size: 10px;
   padding-top: 5px;
 }
 
@@ -1469,7 +1470,7 @@ a:hover .arrow.diagonal {
 
 .credential-column article p {
   color: #9f94a3;
-  font-size: 11px;
+  font-size: 12px;
   line-height: 1.6;
   margin: 0;
 }
@@ -1486,7 +1487,7 @@ a:hover .arrow.diagonal {
 
 .toolbox > p {
   color: var(--violet-bright);
-  font-size: 9px;
+  font-size: 10px;
   font-weight: 800;
   letter-spacing: 0.15em;
   margin: 4px 0 0;
@@ -1504,7 +1505,7 @@ a:hover .arrow.diagonal {
   border: 1px solid var(--line);
   color: #c5b8c9;
   font-family: "Courier New", monospace;
-  font-size: 9px;
+  font-size: 10px;
   letter-spacing: 0.05em;
   padding: 9px 12px;
   text-transform: uppercase;
@@ -1586,7 +1587,7 @@ a:hover .arrow.diagonal {
 .footer-top > a {
   color: #8e8492;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 8px;
+  font-size: 9px;
   letter-spacing: 0.11em;
   text-transform: uppercase;
 }
@@ -1615,7 +1616,7 @@ a:hover .arrow.diagonal {
 
 .profile-grid span {
   color: var(--violet-bright);
-  font-size: 8px;
+  font-size: 9px;
   font-weight: 800;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -1623,7 +1624,7 @@ a:hover .arrow.diagonal {
 
 .profile-grid strong {
   color: #aaa0ae;
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 400;
   grid-column: 1;
 }
@@ -1636,7 +1637,7 @@ a:hover .arrow.diagonal {
 .footer-bottom {
   color: #746c78;
   display: flex;
-  font-size: 8px;
+  font-size: 9px;
   justify-content: space-between;
   letter-spacing: 0.08em;
   margin-top: 34px;
@@ -1846,7 +1847,7 @@ a:hover .arrow.diagonal {
 
   .brand-mark {
     height: 34px;
-    width: 34px;
+    width: 40px;
   }
 
   .header-contact {

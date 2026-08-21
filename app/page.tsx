@@ -212,10 +212,10 @@ export default function Home() {
     <main id="top">
       <header className="site-header">
         <a className="brand" href="#top" aria-label="Home">
-          <span className="brand-mark">EK</span>
+          <span className="brand-mark">EYuK</span>
           <span className="brand-copy">
-            <strong>Elmira Yu. Kalimulina</strong>
-            <small>stochastic systems · applied mathematics</small>
+            <strong>El'mira Yu. Kalimulina</strong>
+            <small>stochastic systems · applied mathematics · computer and telecommunications networks</small>
           </span>
         </a>
 
@@ -236,7 +236,7 @@ export default function Home() {
         <div className="hero-copy">
           <p className="eyebrow">PhD in Computer Science · Moscow</p>
           <h1>
-            Elmira Yu.{" "}
+            El'mira Yu.{" "}
             <br />
             Kalimulina
           </h1>
@@ -258,8 +258,7 @@ export default function Home() {
 
           <div className="hero-affiliations" aria-label="Current positions">
             <span>MSU · Senior Research Fellow</span>
-            <span>IITP RAS · Researcher</span>
-            <span>RUT (MIIT) · Associate Professor</span>
+            <span>IITP RAS · Senior Research Fellow</span>
           </div>
         </div>
 
@@ -268,14 +267,14 @@ export default function Home() {
             <div className="portrait-glow" />
             <img
               src="/elmira-kalimulina-portrait.webp"
-              alt="Elmira Yu. Kalimulina"
-              width="720"
-              height="929"
+              alt="El'mira Yu. Kalimulina"
+              width="665"
+              height="922"
             />
             <div className="portrait-grid" aria-hidden="true" />
             <div className="portrait-label label-top">
               <span>research / industry</span>
-              <strong>20+ years</strong>
+              <strong>20+ years of experience</strong>
             </div>
             <div className="portrait-label label-bottom">
               <span>focus</span>
@@ -287,7 +286,7 @@ export default function Home() {
         <div className="proof-strip" aria-label="Key facts">
           <div>
             <strong>20+</strong>
-            <span>years in research and teaching</span>
+            <span>years of experience in research and teaching</span>
           </div>
           <div>
             <strong>50+</strong>
@@ -463,7 +462,7 @@ export default function Home() {
             </p>
           </div>
           <div>
-            <p className="card-kicker">Research collaboration</p>
+            <p className="card-kicker">Current research appointment</p>
             <h3>IITP RAS</h3>
             <p>
               Ergodicity of Markov processes and applied stochastic models, with a
@@ -680,9 +679,9 @@ export default function Home() {
       <footer className="site-footer" id="profiles">
         <div className="footer-top">
           <div>
-            <span className="brand-mark">EK</span>
+            <span className="brand-mark">EYuK</span>
             <p>
-              Elmira Yu. Kalimulina
+              El'mira Yu. Kalimulina
               <small>Mathematician · researcher · lecturer</small>
             </p>
           </div>
@@ -698,7 +697,7 @@ export default function Home() {
           ))}
         </div>
         <div className="footer-bottom">
-          <span>© {new Date().getFullYear()} Elmira Yu. Kalimulina</span>
+          <span>© {new Date().getFullYear()} El'mira Yu. Kalimulina</span>
           <span>Moscow · available for research, R&amp;D and expert collaborations</span>
         </div>
       </footer>
