@@ -3,26 +3,28 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://elmira.su"),
-  title: "Elmira Yu. Kalimulina — Mathematics for Complex Systems",
+  title: "El'mira Yu. Kalimulina — Mathematics for Complex Systems",
   description:
-    "Stochastic modelling, R&D, machine learning and reliability of complex networks. Research, industry projects, publications and teaching by Elmira Yu. Kalimulina.",
-  authors: [{ name: "Elmira Yu. Kalimulina" }],
-  creator: "Elmira Yu. Kalimulina",
+    "Stochastic modelling, applied mathematics, computer and telecommunications networks, machine learning and reliability of complex systems. Research, industry projects, publications and teaching by El'mira Yu. Kalimulina.",
+  authors: [{ name: "El'mira Yu. Kalimulina" }],
+  creator: "El'mira Yu. Kalimulina",
   alternates: {
     canonical: "/",
   },
   keywords: [
-    "Elmira Yu. Kalimulina",
+    "El'mira Yu. Kalimulina",
     "El'mira Yu. Kalimulina",
     "stochastic networks",
     "mathematical modelling",
     "queueing theory",
     "system reliability",
     "machine learning",
+    "computer networks",
+    "telecommunications networks",
     "R&D",
   ],
   openGraph: {
-    title: "Elmira Yu. Kalimulina — Mathematics for Complex Systems",
+    title: "El'mira Yu. Kalimulina — Mathematics for Complex Systems",
     description:
       "Researcher, lecturer and industry expert working across stochastic systems, machine learning and telecommunications.",
     type: "website",
