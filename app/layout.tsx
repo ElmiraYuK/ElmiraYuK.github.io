@@ -3,9 +3,9 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://elmira.su"),
-  title: "El'mira Yu. Kalimulina — Mathematics for Complex Systems",
+  title: "El'mira Yu. Kalimulina — Stochastic Networks & Applied Mathematics",
   description:
-    "Stochastic modelling, applied mathematics, computer and telecommunications networks, machine learning and reliability of complex systems. Research, industry projects, publications and teaching by El'mira Yu. Kalimulina.",
+    "Probability, queueing theory and applied mathematical modelling for stochastic networks in telecommunications, transport, distributed computing and financial systems. Research and industry work by El'mira Yu. Kalimulina.",
   authors: [{ name: "El'mira Yu. Kalimulina" }],
   creator: "El'mira Yu. Kalimulina",
   alternates: {
@@ -24,9 +24,9 @@ export const metadata: Metadata = {
     "R&D",
   ],
   openGraph: {
-    title: "El'mira Yu. Kalimulina — Mathematics for Complex Systems",
+    title: "El'mira Yu. Kalimulina — Stochastic Networks & Applied Mathematics",
     description:
-      "Researcher, lecturer and industry expert working across stochastic systems, machine learning and telecommunications.",
+      "Probability, queueing theory and mathematical modelling for stochastic networks and industrial systems under uncertainty.",
     type: "website",
     locale: "en_GB",
     url: "/",

@@ -1,5 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 
+import DynamicNetwork from "./DynamicNetwork";
+
 const Arrow = ({ diagonal = false }: { diagonal?: boolean }) => (
   <span aria-hidden="true" className={diagonal ? "arrow diagonal" : "arrow"}>
     {diagonal ? "↗" : "→"}
@@ -184,6 +186,7 @@ const NetworkField = ({
     className={`network-field${compact ? " compact" : ""}${left ? " left" : ""}`}
     aria-hidden="true"
   >
+    <DynamicNetwork compact={compact} />
     {Array.from({ length: 14 }, (_, index) => (
       <i className={`edge edge-${index + 1}`} key={`edge-${index + 1}`} />
     ))}
@@ -234,17 +237,20 @@ export default function Home() {
       <section className="hero">
         <NetworkField />
         <div className="hero-copy">
-          <p className="eyebrow">PhD in Computer Science · Moscow</p>
+          <p className="eyebrow">Probability · Queueing theory · Applied mathematics</p>
           <h1>
             El'mira Yu.{" "}
             <br />
             Kalimulina
           </h1>
-          <p className="hero-title">Mathematician for complex systems</p>
+          <p className="hero-title">Stochastic networks and industrial modelling</p>
           <p className="hero-lead">
-            I connect stochastic modelling, machine learning and engineering
-            practice — from stability theory for networks to R&amp;D for mobile
-            telecommunications traffic and quantitative strategies.
+            I work on the mathematics of stochastic networks: queueing systems,
+            random graphs, reliability and probabilistic dynamics. Across research
+            and industry, I build and optimise networked systems with random demand,
+            failures, mobility and evolving structure — particularly in
+            telecommunications and transport, distributed computing and financial
+            networks, and reliability-critical infrastructure.
           </p>
 
           <div className="hero-actions">
@@ -257,8 +263,14 @@ export default function Home() {
           </div>
 
           <div className="hero-affiliations" aria-label="Current positions">
-            <span>MSU · Senior Research Fellow</span>
-            <span>IITP RAS · Senior Research Fellow</span>
+            <article>
+              <strong>Lomonosov Moscow State University</strong>
+              <span>Senior Research Fellow · Laboratory of Large Random Systems</span>
+            </article>
+            <article>
+              <strong>Kharkevich Institute for Information Transmission Problems, RAS</strong>
+              <span>Senior Research Fellow · Dobrushin Mathematics Laboratory</span>
+            </article>
           </div>
         </div>
 
@@ -308,41 +320,62 @@ export default function Home() {
         <div className="section-index">01 / VALUE</div>
         <div className="section-heading split-heading">
           <h2>
-            From rigorous models
-            <br />to systems that work
+            What I do with
+            <br />stochastic networks
           </h2>
           <p>
-            My strength is the ability to see the same system simultaneously as a
-            mathematical object, a data flow and an engineering process. This makes
-            it possible to produce solutions that are not only correct, but useful.
+            I retain the randomness that actually governs performance — traffic
+            bursts, failures and repairs, mobility, routing and structural change —
+            and turn it into quantities that can be proved, computed and used in a
+            design decision.
           </p>
         </div>
 
         <div className="value-grid">
           <article>
             <span>01</span>
-            <h3>Formalise uncertainty</h3>
+            <h3>Build the stochastic model</h3>
             <p>
-              I translate demand, failures, mobility and random disturbances into
-              model parameters, stability criteria and measurable risks.
+              Queueing networks, Markov processes, random graphs and reliability
+              models for systems with time-varying load, failures, mobility and
+              changing topology.
             </p>
           </article>
           <article>
             <span>02</span>
-            <h3>Test before implementation</h3>
+            <h3>Establish operating limits</h3>
             <p>
-              I combine analytical estimates, simulation and data analysis to
-              compare scenarios and expose system constraints.
+              Stability and ergodicity criteria, convergence rates, delay and
+              throughput estimates, overload probabilities, bottlenecks and phase
+              transitions.
             </p>
           </article>
           <article>
             <span>03</span>
-            <h3>Connect research and product</h3>
+            <h3>Optimise the real system</h3>
             <p>
-              I work across research, data and engineering teams — from a hypothesis
-              and prototype to expert review or a protectable technical result.
+              Analytical bounds, simulation and data analysis to compare
+              architectures, validate control policies and translate mathematical
+              results into engineering choices.
             </p>
           </article>
+        </div>
+
+        <div className="value-map" aria-label="Mathematical methods and application domains">
+          <div>
+            <span>Mathematical core</span>
+            <p>
+              Probability theory · Queueing theory · Markov processes · Random graphs
+              · Reliability · Simulation
+            </p>
+          </div>
+          <div>
+            <span>Application domains</span>
+            <p>
+              Telecommunications · Transport · Distributed computing · Financial
+              networks · Reliability-critical infrastructure
+            </p>
+          </div>
         </div>
       </section>
 
@@ -463,9 +496,10 @@ export default function Home() {
           </div>
           <div>
             <p className="card-kicker">Current research appointment</p>
-            <h3>IITP RAS</h3>
+            <h3>Kharkevich Institute for Information Transmission Problems, RAS</h3>
             <p>
-              Ergodicity of Markov processes and applied stochastic models, with a
+              Senior Research Fellow at the Dobrushin Mathematics Laboratory:
+              ergodicity of Markov processes and applied stochastic models, with a
               focus on the theory of dynamic networks.
             </p>
           </div>
