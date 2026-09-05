@@ -280,10 +280,12 @@ export default function Home() {
             <img
               src="/elmira-kalimulina-portrait.webp"
               alt="El'mira Yu. Kalimulina"
-              width="665"
-              height="922"
+              width="1122"
+              height="1402"
             />
-            <div className="portrait-grid" aria-hidden="true" />
+            <div className="portrait-network" aria-hidden="true">
+              <DynamicNetwork compact />
+            </div>
             <div className="portrait-label label-top">
               <span>research / industry</span>
               <strong>20+ years of experience</strong>
