@@ -1,5 +1,7 @@
 # Project status and version history
 
+**Project status: PAUSED** as of 22 November 2026. Further research and development will resume at the author's request.
+
 ## Current version — 22 November 2026
 
 **Working project · unpublished preprint.** The research companion and numerical laboratory may be updated periodically. The manuscript is the author-provided preprint compiled from the root `main.tex` of the Overleaf export of 22 November 2026. The published PDF is dated independently of any future laboratory changes.
@@ -17,5 +19,10 @@
 ### Planned research — not yet implemented
 
 - Add random regular graphs as an experimental network topology. Check graph-generation feasibility, reproducibility, routing weights and model assumptions, then investigate numerical comparisons with the diffusion. The existing sparse-random-graph option does **not** generate a random regular graph. This is a research direction, not a new theorem or a claim that the existing results automatically apply.
+
+- Investigate planar graphs as candidate network topologies; check the routing assumptions and how failures affect the graph.
+- Investigate triangulated graph topologies, including Delaunay triangulations, and examine numerical behavior and applicability of the model assumptions.
+
+These graph directions are planned research; neither their implementation nor new mathematical results are claimed.
 
 Record subsequent releases here with a date, what changed and any limitations; record verified release details.
