@@ -526,12 +526,13 @@ export default function Home() {
         <div className="section-index">04 / TEACHING</div>
         <div className="teaching-intro">
           <div>
-            <p className="award-label">Teaching experience · through 2022</p>
+            <p className="award-label">Teaching experience · through 2020</p>
             <h2>Teaching mathematics for real-world problems</h2>
             <p>
               I taught rigorous probability as a
               working language for data analysis, engineering and decision-making.
             </p>
+            <p>Student recognition: “Best Lecturer, Higher School of Engineering”, Russian University of Transport · 2023 / 2024.</p>
           </div>
           <div className="teaching-principle">
             <span>Teaching principle</span>
@@ -544,7 +545,7 @@ export default function Home() {
 
         <div className="courses-layout">
           <div className="courses-title">
-            <p className="card-kicker">Previously taught courses at MSU · through 2022</p>
+            <p className="card-kicker">Previously taught courses at MSU · through 2020</p>
             <h3>From probability to models of real networks</h3>
           </div>
           <div className="course-list">
@@ -572,7 +573,7 @@ export default function Home() {
           </div>
           <div>
             <strong>20+</strong>
-            <span>years of teaching, through 2022</span>
+            <span>years of teaching, through 2020</span>
             <p>
               MSU, RUT (MIIT), MTUCI and Yandex School of Data Analysis: Bachelor’s
               and Master’s teaching, staff development and research supervision.
