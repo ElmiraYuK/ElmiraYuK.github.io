@@ -2154,6 +2154,34 @@ a:hover .arrow.diagonal {
   text-transform: none;
 }
 
+.hero-affiliations .imm-affiliation {
+  grid-column: 1 / -1;
+  background: #b92b62;
+  border-color: #ff93bc;
+  padding: 20px 22px;
+  gap: 10px;
+}
+
+.hero-affiliations .imm-affiliation strong {
+  color: #fff;
+  font-size: clamp(15px, 1.4vw, 19px);
+}
+
+.hero-affiliations .imm-affiliation span {
+  color: #fff;
+  font-size: clamp(16px, 1.5vw, 21px);
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.imm-affiliation a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 .network-canvas {
   cursor: crosshair;
   height: 100%;

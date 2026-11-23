@@ -263,6 +263,11 @@ export default function Home() {
           </div>
 
           <div className="hero-affiliations" aria-label="Current positions">
+            <article className="imm-affiliation">
+              <strong>Incarnet Math Modelling · Armenia</strong>
+              <span>Since 2023 · Chief Research Scientist and Head of Advanced Research and Development</span>
+              <a href="https://imm.am/index.php/our-team/" target="_blank" rel="noreferrer">IMM team <Arrow diagonal /></a>
+            </article>
             <article>
               <strong>Lomonosov Moscow State University</strong>
               <span>Senior Research Fellow · Laboratory of Large Random Systems</span>
@@ -521,11 +526,10 @@ export default function Home() {
         <div className="section-index">04 / TEACHING</div>
         <div className="teaching-intro">
           <div>
-            <p className="award-label">Student recognition</p>
-            <div className="award-years">2023 / 2024</div>
-            <h2>“Best Lecturer, Higher School of Engineering”</h2>
+            <p className="award-label">Teaching experience · through 2022</p>
+            <h2>Teaching mathematics for real-world problems</h2>
             <p>
-              Russian University of Transport. I teach rigorous probability as a
+              I taught rigorous probability as a
               working language for data analysis, engineering and decision-making.
             </p>
           </div>
@@ -540,7 +544,7 @@ export default function Home() {
 
         <div className="courses-layout">
           <div className="courses-title">
-            <p className="card-kicker">Author-designed courses at MSU</p>
+            <p className="card-kicker">Previously taught courses at MSU · through 2022</p>
             <h3>From probability to models of real networks</h3>
           </div>
           <div className="course-list">
@@ -568,7 +572,7 @@ export default function Home() {
           </div>
           <div>
             <strong>20+</strong>
-            <span>years of teaching</span>
+            <span>years of teaching, through 2022</span>
             <p>
               MSU, RUT (MIIT), MTUCI and Yandex School of Data Analysis: Bachelor’s
               and Master’s teaching, staff development and research supervision.
@@ -697,7 +701,7 @@ export default function Home() {
 
       <section className="contact-section" id="contact">
         <NetworkField compact />
-        <p className="eyebrow">Research · R&amp;D · teaching · expert work</p>
+        <p className="eyebrow">Research · R&amp;D · expert work</p>
         <h2>
           Working on a complex system?
           <br />Let us build a clear model for it.
@@ -718,7 +722,7 @@ export default function Home() {
             <span className="brand-mark">EYuK</span>
             <p>
               El'mira Yu. Kalimulina
-              <small>Mathematician · researcher · lecturer</small>
+              <small>Mathematician · researcher · R&amp;D leader</small>
             </p>
           </div>
           <a href="#top">Back to top ↑</a>
